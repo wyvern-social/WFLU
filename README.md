@@ -4,10 +4,10 @@
 Originally written in .NET, it provides a simple localization format that can be adapted to other languages and platforms.
 
 ## Tools
-
-| Tool | Description                                                                                                     | Repository                                               |
-| ---- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| WFLU | Core WFLU library with parser for `.wflu` files, message retrieval, choice handling, and variable substitution. | [Repo](https://github.com/wyvern-social/WFLU) |
+| Tool                  | Description                                                                                                     | Repository                                                                                                                                                           |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| WFLU                  | Core WFLU library with parser for `.wflu` files, message retrieval, choice handling, and variable substitution. | [Repo](https://github.com/wyvern-social/WFLU) [NuGet](https://www.nuget.org/packages/WFLU)                                                                           |
+| WFLU-Language-Support | VSCode extension for syntax highlighting on `.wflu` files.                                                      | [Repo](https://github.com/lunariixx/wflu-language-support) [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=lunariixx.wflu-language-support) |
 
 ## Features
 
