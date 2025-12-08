@@ -1,1 +1,1 @@
-# Talyx.NET
+# Talyx
