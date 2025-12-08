@@ -4,7 +4,7 @@ Welcome to **Talyx**, the lightweight i18n library for managing localized messag
 
 > **Quick Note:**  
 > If this is **not** the `Talyx` repository and you want to list your own tool, note that this file is synced across all official Talyx docs automatically.  
-> Please add your tool directly in the [`/docs/` section of the Talyx repository](https://github.com/wyvern-social/Talyx/).
+> Please add your tool directly in the [`/docs/index.md` section of the Talyx repository](https://github.com/wyvern-social/Talyx/blob/main/docs/index.md#community).
 
 ## Features
 
