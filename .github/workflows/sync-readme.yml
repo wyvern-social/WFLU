@@ -1,0 +1,23 @@
+name: Sync README
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch README
+        run: |
+          curl -fSL \
+            https://raw.githubusercontent.com/wyvern-social/Talyx/main/README.md \
+            -o README.md
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Sync README'
+          branch: main
