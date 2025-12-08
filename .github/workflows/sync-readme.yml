@@ -12,7 +12,10 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch README
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch remote README
         run: |
           curl -fSL \
             https://raw.githubusercontent.com/wyvern-social/Talyx/main/README.md \
